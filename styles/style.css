@@ -68,10 +68,6 @@
   margin-bottom: 30px;
 }
 
-.banner-des {
-  /* margin-bottom: 30px; */
-}
-
 .banner-des h3 {
   color: #0D1321;
   font-family: "Azeret Mono";
@@ -103,11 +99,14 @@
 }
 
 /* banner section done */
+main {
+  width: 79%;
+  margin: 0 auto;
+}
 
 .development-sec {
   margin: 70px auto 85px;
   padding: 80px 90px;
-  width: 79%;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
 
@@ -192,4 +191,45 @@
   justify-content: flex-end;
   gap: 32px;
   background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+/* inspiration section */
+.inspiration-section {
+  margin: 0 auto 150px;
+  border: 1px solid red;
+}
+
+.inspiration-sec-info {
+  text-align: center;
+  margin: 0 auto 45px;
+  width: 758px;
+}
+
+.inspiration-sec-info h4 {
+  color: #0D1321;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 22px;
+}
+
+.inspiration-sec-info p {
+  color: #0D1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.iframe-video {
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.20);
+  padding: 30px;
+}
+
+.iframe-video iframe {
+  border-radius: 16px;
+  background: url(<path-to-image>) lightgray 0px -5.621px / 100% 110.681% no-repeat;
 }
