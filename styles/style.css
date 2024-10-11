@@ -387,3 +387,70 @@ main {
   font-weight: 700;
   line-height: normal;
 }
+
+
+/* support section */
+.support {
+  padding: 64px 48px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../assets/handshake.jpg) lightgray 50% / cover no-repeat;
+  margin-bottom: 80px;
+}
+
+.support-container {
+  text-align: center;
+}
+
+.support-text>h6 {
+  color: #FFF;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.support-text>p {
+  opacity: 0.7;
+  color: #FFF;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  width: 535px;
+  margin: 16px auto 24px;
+}
+
+.support-input {
+  display: flex;
+  justify-content: center;
+}
+
+.support-input input[type="text"] {
+  /* display: flex; */
+  width: 548px;
+  padding: 19px 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #FFF;
+  margin-right: 16px;
+}
+
+.support-input input::placeholder {
+  color: rgba(13, 19, 33, 0.40);
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.support-input input[type="submit"] {
+  border-radius: 8px;
+  background: #FFF;
+  padding: 15px 20px;
+  color: #0D1321;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
